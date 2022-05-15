@@ -1,7 +1,7 @@
 # AdminsPortal
 This is an Admin side based frontend design.
 
-Repo: [AdminsPortal](https://github.com/Chukwu-Godgive/Adminportal).
+Repo: [AdminsPortal](https://github.com/Chukwu-Godgive/Adminsportal).
 
 Website: [AdminsPortal](https://adminsportal.netlify.app).
 
