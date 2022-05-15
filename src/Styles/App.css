@@ -1,0 +1,7 @@
+/* Centers it, sets a maximum width and makes sure elements can flow past it*/
+
+.container {
+  margin: 0 auto;
+  max-width: 1220px;
+  overflow: visible;
+}
