@@ -10,7 +10,7 @@ import './Styles/App.css';
 function App() {
   return (
     <div className='container'>
-      <h1>AdminPortal</h1>
+      <h1>Admins Portal</h1>
     </div>
   );
 }
