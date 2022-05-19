@@ -1,6 +1,5 @@
-.teamsMember {
+.clients {
     background-color: white;
-    margin-bottom: 2rem;
     max-width: 100%;
 }
 
@@ -15,12 +14,12 @@
     margin-top: 2rem;
 }
 
-.teamsMember h3 {
+.clients h3 {
     color: teal;
 }
 
 .p {
-color: teal;
+color: rgba(145, 26, 8, 0.986);
 }
 
 .tr {
@@ -62,7 +61,7 @@ table {
 
 .name {
     padding-right: 6rem;
-    color: teal;
+    color: tomato;
     padding-top: 2rem;
 }
 
@@ -83,9 +82,9 @@ table {
 }
 
 @media(max-width: 390px) {
-    .teamsMember {
+    .clients {
         background-color: white;
-        max-width: 100%;
+        /* max-width: fit-content; */
     }
     
     .h3 {
@@ -99,7 +98,7 @@ table {
         margin-top: 0.1rem;
     }
     
-    .teamsMember h3 {
+    .clients h3 {
         color: teal;
     }
     .tr {
@@ -123,12 +122,12 @@ table {
     }
     
     .image {
-        margin-right: 3rem;
+        margin-right: 0;
     }
     
     .name {
         padding-right: 0.1rem;
-        color: teal;
+        color: tomato;
         padding-top: 0;
     }
     
