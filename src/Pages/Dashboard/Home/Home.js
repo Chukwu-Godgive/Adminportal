@@ -25,7 +25,7 @@ function Home() {
                     <img src={OptimalExpense} alt='' />
                     <MiniProfitCard 
                         miniicon ='its dem good'
-                        minititle='Inventory Cost'
+                        minititle='Products Cost'
                         minidescription='It explains the ins and outs.'
                         miniprice='$5,400'
                     />
