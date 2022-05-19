@@ -1,8 +1,10 @@
 // React Dependencies should be imported here.
 import React from 'react'
-// import Teams from './Pages/Dashboard/Teams/Teams';
-import './Styles/App.css';
 import Home from './Pages/Dashboard/Home/Home';
+// import Teams from './Pages/Dashboard/Teams/Teams';
+// import Clients from './Pages/Dashboard/Clients/Clients'
+import './Styles/App.css';
+
 
 
 // Code functions starts from here
@@ -11,6 +13,8 @@ function App() {
     <div className='container'>
       <Home />
       {/* <Teams /> */}
+      {/* <Clients /> */}
+
     </div>
   );
 }
