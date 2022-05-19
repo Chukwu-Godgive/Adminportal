@@ -1,0 +1,39 @@
+.profitCard {
+    background-color: rgb(117, 162, 158);
+    width: 16rem;
+    height: auto;
+    padding: 0.5rem 0.5rem;
+    border-radius: 8px;
+    color: white;
+    display: flex;
+    align-content: center;
+}
+
+.profitCard:hover {
+    background-color: rgba(0, 0, 0, 0.801);
+}
+
+.iconContainer {
+    margin-right: 1rem;
+}
+
+.profitCardIcon {
+    background-color: rgba(190, 228, 225, 0.603);
+    border-radius: 50%;
+    width: 3rem;
+    height: auto;
+    padding: 0.5rem;
+}
+
+.profitCardIcon:hover {
+    background-color: rgb(255, 116, 123);
+}
+
+.profitCardInfor {
+    font-size: 1rem;
+    font-weight: 550;
+}
+
+.profitCradRate {
+    padding-left: 4rem;
+}

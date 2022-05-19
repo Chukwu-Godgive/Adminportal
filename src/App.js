@@ -5,12 +5,13 @@ import React from 'react'
 import './Styles/App.css';
 
 // Components and Pages should be imported here.
+import Home from './Pages/Dashboard/Home/Home';
 
 // Code functions starts from here
 function App() {
   return (
     <div className='container'>
-      <h1>Admins Portal</h1>
+      <Home />
     </div>
   );
 }

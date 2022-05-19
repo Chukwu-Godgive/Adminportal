@@ -1,0 +1,111 @@
+.homeContainer {
+    /* background-color: rgb(249, 249, 249); */
+    background-color: white;
+}
+.section1 {
+    display: flex;
+}
+
+.section2 {
+    display: flex;
+    margin-top: 2rem;
+}
+
+.passiveCard {
+    background-color: rgb(255, 255, 255);
+    width: fit-content;
+    height: fit-content;
+    padding: 1rem;
+    border-radius: 8px;
+    margin-bottom: 1rem;
+}
+
+.passiveCard img {
+    width: 16rem;
+}
+
+.passiveCard-1 {
+    background-color: rgb(255, 255, 255);
+}
+.passiveCard-2 {
+    margin-left: 1.5rem;
+}
+
+.passiveCardInfor {
+    font-size: 1rem;
+    font-weight: 700;
+    padding-bottom: 1.5rem; 
+}
+
+
+.activeCard {
+    background-color: rgb(255, 255, 255);
+    width: fit-content;
+    height: fit-content;
+    padding: 1rem;
+    border-radius: 8px;
+    margin-left: 1.5rem;
+}
+.activeCardInfor {
+    display: flex;
+    align-items: center;
+    font-size: 1rem;
+    font-weight: 700;
+    padding-bottom: 1.5rem;
+}
+.activeCardTitle {
+    margin-right: 5rem;
+}
+.duration {
+    border-radius: 10px;
+    width: fit-content;
+    height: fit-content;
+    padding: 0.4rem;
+}
+
+
+.totalProfitFlex {
+    display: flex;
+}
+
+.totalProfitColumn {
+    padding-bottom: 1rem;
+    margin-left: 1.5rem;
+}
+
+.totalProfitColumn2 {
+    margin-top: 1.5rem;
+}
+
+/* .grid-1, .grid-2, .grid-3 {
+    overflow: visible;
+    display: grid;
+    grid-template-columns: 5%;
+} */
+
+
+@media(max-width: 390px) {
+    .section2 {
+        display: grid;
+    }
+
+    .totalProfitFlex {
+        display: grid;
+    }
+    .passiveCard-2 {
+        margin-left: 0;
+    }
+
+    .activeCard {
+        background-color: rgb(255, 255, 255);
+        width: fit-content;
+        height: fit-content;
+        padding: 1rem;
+        border-radius: 8px;
+        margin-left: 0;
+    }
+
+    .activeCardTitle {
+        margin-right: 1rem;
+    }
+}
