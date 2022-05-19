@@ -1,0 +1,40 @@
+.miniProfitCard {
+    background-color: rgb(246, 247, 249);
+    width: 16rem;
+    height: auto;
+    padding: 0.5rem 0.5rem;
+    border-radius: 8px;
+    color: black;
+    display: flex;
+    align-items: center;
+    margin-bottom: 1.5rem;
+}
+
+
+
+.iconContainer {
+    margin-right: 0.5rem;
+}
+
+.miniProfitCardIcon {
+    background-color: rgba(190, 228, 225, 0.603);
+    border-radius: 50%;
+    width: 3rem;
+    height: auto;
+    padding: 0.5rem;
+}
+
+.miniProfitCardInfor {
+    font-size: 1rem;
+    font-weight: 550;
+}
+
+.miniProfitCardRate {
+    padding-left: 1rem;
+    font-weight: 550;
+}
+
+.miniProfitCardInfor-p {
+    font-weight: normal;
+    font-size: 0.9rem;
+}
