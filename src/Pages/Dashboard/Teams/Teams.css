@@ -1,14 +1,15 @@
 .teamsMember {
     background-color: white;
     margin-bottom: 2rem;
-    max-width: 100%;
+    margin-left: 10rem;
 }
 
-.h3 {
+.teamH3 {
     margin-bottom: 0.1rem;
+    padding-left: 0.5rem;
 }
 
-.tr p {
+.teamTr p {
     align-items: center;
     font-size: 1rem;
     font-weight: 500;
@@ -19,26 +20,20 @@
     color: teal;
 }
 
-.p {
-color: teal;
+.teamP {
+    color: teal;
+    padding-left: 0.5rem;
 }
 
-.tr {
+.teamTr {
     display: flex;
     padding: 1rem;
 }
-.tr h3{
+.teamTr h3{
     padding: 0 6rem 0.5rem 2rem;
 }
-.tr p img {
-    padding: 0 5rem 0.5rem 5rem; 
-}
 
-td {
-    padding-right: 5rem;
-}
-
-img {
+.teamTr img {
     width: 10rem;
     border: 5px solid white;
     box-shadow: 1px 2px 8px black;
@@ -49,50 +44,44 @@ table {
     padding: 1rem;
 }
 
-.under1 h3:hover{
-  background-color: black;
-  color: white;  
-  border-radius: 5px;
-  padding: 0.3rem;
-}
-
-.image {
+.teamImage {
     margin-right: 3rem;
 }
 
-.name {
+.teamName {
     padding-right: 6rem;
     color: teal;
     padding-top: 2rem;
 }
 
-.gender {
+.teamGender {
     padding-right: 6rem;
     padding-top: 2rem;
 }
 
-.phone {
+.teamPhone {
     padding-right: 6rem;
     padding-top: 2rem;
 }
 
-.email {
+.teamEmail {
     color: blue;
     padding-right: 5rem;
     padding-top: 2rem;
 }
 
-@media(max-width: 390px) {
+@media(max-width: 750px) {
     .teamsMember {
         background-color: white;
         max-width: 100%;
+        margin-left: 0;
     }
     
-    .h3 {
+    .teamH3 {
         margin-bottom: 0rem;
     }
     
-    .tr p {
+    .teamTr p {
         align-items: center;
         font-size: 1rem;
         font-weight: 500;
@@ -102,47 +91,39 @@ table {
     .teamsMember h3 {
         color: teal;
     }
-    .tr {
+    .teamTr {
         display: grid;
         padding-left: 1rem;
     }
-    .tr h3{
+    .teamTr h3{
         padding: 0 6rem 0.5rem 2rem;
         display: none;
     }
-    .tr p img {
+    .teamTr p img {
         padding: 0 5rem 0 5rem; 
     }
-
-    img {
-        width: 10rem;
-        border: 5px solid white;
-        box-shadow: 1px 2px 8px black;
-        margin-top: 1rem;
-        margin-bottom: 0.5rem;
-    }
     
-    .image {
+    .TeamImage {
         margin-right: 3rem;
     }
     
-    .name {
+    .teamName {
         padding-right: 0.1rem;
         color: teal;
         padding-top: 0;
     }
     
-    .gender {
+    .teamGender {
         padding-right: 0.1rem;
         padding-top: 0;
     }
     
-    .phone {
+    .teamPhone {
         padding-right: 0.1rem;
         padding-top: 0;
     }
     
-    .email {
+    .teamEmail {
         color: blue;
         padding-right: 0.1rem;
         padding-top: 0;

@@ -1,7 +1,14 @@
 .homeContainer {
     /* background-color: rgb(249, 249, 249); */
     background-color: white;
+    margin-left: 10rem;
+    height: 100%;
 }
+
+.homeTitile {
+    padding-left: 0.5rem;
+}
+
 .section1 {
     display: flex;
 }
@@ -44,7 +51,7 @@
     height: fit-content;
     padding: 1rem;
     border-radius: 8px;
-    margin-left: 1.5rem;
+    margin-left: 1rem;
 }
 .activeCardInfor {
     display: flex;
@@ -77,7 +84,14 @@
     margin-top: 1.5rem;
 }
 
-@media(max-width: 390px) {
+@media(max-width: 750px) {
+
+    .homeContainer {
+        /* background-color: rgb(249, 249, 249); */
+        background-color: white;
+        margin-left: 0rem;
+    }
+
     .section2 {
         display: grid;
     }
