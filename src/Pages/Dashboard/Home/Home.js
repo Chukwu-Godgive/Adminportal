@@ -11,9 +11,9 @@ function Home() {
     return (
         
         <div className='homeContainer'>
-            <div>
+            <div className='homeTitile'>
                 <h1>Dashboard</h1>
-                <p>Users Name here</p>
+                <p>Welcome, username</p>
             </div>
 
             <div className='section2'>

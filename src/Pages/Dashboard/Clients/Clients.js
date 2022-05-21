@@ -17,7 +17,8 @@ function Clients() {
 
     // API fetching ends here
     return (
-        <div className='clients'>
+        <div>
+        <div className='client'>
             <h1 className='h3'>Our Clients</h1>
             <p className='p'>Thanks for believing in us.</p>
                 <div className='under1 tr'>
@@ -36,6 +37,7 @@ function Clients() {
                     <p className='email'>{setClient.email}</p>
                 </div>                
             ) ) : null }
+        </div>
         </div>
     );
 }

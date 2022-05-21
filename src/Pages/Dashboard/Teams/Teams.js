@@ -15,10 +15,11 @@ function Teams() {
 
     // API fetching ends here
     return (
+        <div className='teamsMemberContainer'>
         <div className='teamsMember'>
-            <h1 className='h3'>Our Teams</h1>
-            <p className='p'>We belive in Unity, we Archieve more</p>
-                <div className='under1 tr'>
+            <h1 className='teamH3'>Our Teams</h1>
+            <p className='teamP'>We belive in Unity, we Archieve more</p>
+                <div className='under1 teamTr'>
                     <h3>IMAGE</h3>
                     <h3>NAME</h3>
                     <h3>GENDER</h3>
@@ -26,14 +27,15 @@ function Teams() {
                     <h3>EMAIL</h3>
                 </div>
             { ourTeamMembers ? ourTeamMembers?.map((ourTeamMember, idx) =>(
-                <div className='tr' key={idx} >
-                    <img className='image' src={ourTeamMember.image} alt='' />
-                    <p className='name'>{ourTeamMember.firstname} {ourTeamMember.lastname}</p>
-                    <p className='gender'>{ourTeamMember.gender}</p>
-                    <p className='phone'>{ourTeamMember.phone}</p>
-                    <p className='email'>{ourTeamMember.email}</p>
+                <div className='teamTr' key={idx} >
+                    <img className='teamImage' src={ourTeamMember.image} alt='' />
+                    <p className='teamName'>{ourTeamMember.firstname} {ourTeamMember.lastname}</p>
+                    <p className='teamGender'>{ourTeamMember.gender}</p>
+                    <p className='teamPhone'>{ourTeamMember.phone}</p>
+                    <p className='teamEmail'>{ourTeamMember.email}</p>
                 </div>                
             ) ) : null }
+        </div>
         </div>
     );
 }

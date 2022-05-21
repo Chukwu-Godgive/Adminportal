@@ -1,0 +1,125 @@
+.navbarContents {
+    background-color: rgb(241, 222, 222);
+    width: 10rem;
+    padding: 1rem;
+    float: left;
+    position: fixed;
+}
+
+.navbarLogo img{
+    width: 5rem;
+}
+
+.navbarList {
+    color: darkgrey;
+    font-size: 1.2rem;
+    font-weight: 500;
+}
+
+a {
+    text-decoration: none;
+}
+
+li:hover {
+    background-color: gainsboro;
+    padding: 0.1rem;
+    border-radius: 8px;
+}
+
+li {
+    list-style: none;
+    margin-top: 2.5rem;    
+}
+
+.usersInfor {
+    text-align: center;
+}
+
+.usersInfor img {
+    width: 50px;
+    border-radius: 50%;
+    margin-top: 5rem;
+}
+
+.userName {
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+.userEmail {
+    font-size: 0.9rem;
+    font-weight: 300;
+}
+
+/* On screens that are less than 700px wide, make the sidebar into a topbar */
+@media(max-width: 750px) {
+    .navbarContents {
+        background-color: rgb(241, 222, 222);
+        width: 100%;
+        height: fit-content;
+        padding: 0.5rem;
+        float: none;
+        position: relative;
+    }
+
+    .smallScreenDisplay {
+        display: flex;
+    }
+
+    .image-menus {
+        display: flex;
+    }
+    
+    .navbarLogo img{
+        width: 50px;
+        border-radius: 3px;
+    }
+    
+    .navbarList {
+        color: darkgrey;
+        font-size: 1.2rem;
+        font-weight: 500;
+    }
+    
+    a {
+        text-decoration: none;
+    }
+    
+    li:hover {
+        background-color: gainsboro;
+        padding: 0.1rem;
+        border-radius: 8px;
+    }
+    
+    li {
+        list-style: none;
+        margin-top: 0rem; 
+        text-decoration: none;   
+    }
+    
+    .dashboard, .team, .products, .clients {
+        margin-left: 0rem;
+    }
+
+    .usersInfor {
+        text-align: center;
+        margin-left: 1.5rem;  
+    }
+    
+    .usersInfor img {
+        width: 40px;
+        border-radius: 50%;
+        margin-top: 0;
+    }
+    
+    .userName {
+        font-size: 0.9rem;
+        font-weight: bold;
+    }
+    
+    .userEmail {
+        font-size: 0.9rem;
+        font-weight: 300;
+    }
+  }
+  
