@@ -1,0 +1,120 @@
+.loginContainer {
+    color: rgb(38, 34, 98);
+    background-color: white;
+    display: flex;
+    height: 100%;
+    font-size: 2rem;
+    font-weight: 500;
+}
+
+.loginLogo img{
+    width: 10rem;
+    height: 10rem;
+    border-radius: 50%;
+    padding: 1rem;
+    margin: 1rem 0 0 10px;
+}
+
+.loginForm {
+    margin-left: 10px;
+    align-items: center;
+    margin-top: 2.5rem;
+}
+
+.loginImage img{
+    width: 610px;
+    height: 100%;
+}
+
+.subLogin2Infor{
+   text-align: center;
+   margin-top: 10rem;
+   color: white;
+}
+
+span {
+    color: rgb(13, 6, 156);
+}
+
+.subLogin1 {
+    width: 610px;
+    height: 100%;
+}
+
+.subLogin2 {
+    width: 610px;
+    background: linear-gradient(rgba(0, 0, 0, 0.45), 
+    rgba(0, 0, 0, 0.849)), url(../../Images/TechVali.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.profilepix {
+    font-size: 1rem;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.logincheckbox {
+    display: flex;
+    font-size: 1rem;
+    font-weight: normal;
+    margin-top: 0.5rem;
+    
+}
+
+.logincheckbox p {
+    padding-right: 5rem;
+}
+
+.logincheckbox span input{
+    width: 1rem;
+    color: rgb(38, 34, 98);
+    background-color: rgb(38, 34, 98);
+}
+
+.loginForm input {
+    padding: 0.5rem 0.5rem;
+    width: 20rem;
+    color: rgb(38, 34, 98);
+    font-size: 1rem;
+    font-weight: bold;
+    border: 2px solid rgb(38, 34, 98);
+    border-radius: 3px;
+}
+
+button {
+    text-align: center;
+    border: none;
+    background-color: rgb(38, 34, 98);
+    color: white;
+    padding: 0.5rem 1rem;
+    font-size: 1.5rem;
+    font-weight: bold;
+    border-radius: 8px;
+    margin: 3rem 0 5rem 0;
+}
+
+@media(max-width: 750px) {
+    .subLogin2 {
+        display: none;
+    }
+
+    button {
+        text-align: center;
+        border: none;
+        background-color: rgb(38, 34, 98);
+        color: white;
+        padding: 0.5rem 1rem;
+        font-size: 1.5rem;
+        font-weight: bold;
+        border-radius: 8px;
+        margin: 3rem 0 2rem 0;
+    }
+
+    .account {
+        font-size: 1.5rem;
+        font-weight: 500;
+    }
+}
