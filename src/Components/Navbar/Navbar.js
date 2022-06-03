@@ -15,9 +15,9 @@ function Navbar() {
                     </div>
                     <ul className='navbarList'>
                         <Link to='/'><li className='dashboard'><FcHome /> Dashboard </li></Link>
-                        <Link to='/Teams'><li className='team'><FcBusinessman /> Team </li></Link>
-                        <Link to='/Products'><li className='products'><FcCurrencyExchange /> Products </li></Link>
-                        <Link to='/Clients'><li className='clients'><FcCollaboration /> Clients </li></Link>
+                        <Link to='/teams'><li className='team'><FcBusinessman /> Team </li></Link>
+                        <Link to='/products'><li className='products'><FcCurrencyExchange /> Products </li></Link>
+                        <Link to='/clients'><li className='clients'><FcCollaboration /> Clients </li></Link>
                     </ul>
                 </div>
 
